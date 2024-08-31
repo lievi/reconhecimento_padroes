@@ -12,7 +12,9 @@ dependencies = [
   "seaborn==0.13.*",
   "scikit-learn",
   "scipy>=1.14.1",
-  "sklearn-relief>=1.0.0b2",
+  "ipykernel>=6.29.5",
+  "jupytext>=1.16.4",
+  "skrebate>=0.62",
 ]
 
 [build-system]
