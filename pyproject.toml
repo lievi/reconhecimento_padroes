@@ -15,6 +15,7 @@ dependencies = [
   "ipykernel>=6.29.5",
   "jupytext>=1.16.4",
   "skrebate>=0.62",
+  "mlxtend>=0.23.1",
 ]
 
 [build-system]
