@@ -881,6 +881,19 @@ wheels = [
 ]
 
 [[package]]
+name = "mixed-naive-bayes"
+version = "0.0.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "scikit-learn" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0d/13/dbd377e5be0a0051b20515d28fab82508799fac6f9eedaf8ad9532bc172d/mixed-naive-bayes-0.0.3.tar.gz", hash = "sha256:05be6ddd1e8c9a0fd4f918dca72c02a543defaae8fbead330cba01d393fe82f7", size = 12856 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/85/df/d88eb674d49b67fd0ced1e50ba532e49d871c20642c5c9f5de3337561e87/mixed_naive_bayes-0.0.3-py3-none-any.whl", hash = "sha256:1756d6698d6b07354469f59ebe90de2778184b0779151e2418f62a86bdc6414a", size = 11261 },
+]
+
+[[package]]
 name = "mlxtend"
 version = "0.23.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1376,12 +1389,14 @@ dependencies = [
     { name = "jupyter" },
     { name = "jupytext" },
     { name = "matplotlib" },
+    { name = "mixed-naive-bayes" },
     { name = "mlxtend" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "scikit-learn" },
     { name = "scipy" },
     { name = "seaborn" },
+    { name = "sklearn-relief" },
     { name = "skrebate" },
 ]
 
@@ -1391,12 +1406,14 @@ requires-dist = [
     { name = "jupyter", specifier = "==1.*" },
     { name = "jupytext", specifier = ">=1.16.4" },
     { name = "matplotlib", specifier = "==3.*" },
-    { name = "mlxtend" },
+    { name = "mixed-naive-bayes", specifier = ">=0.0.3" },
+    { name = "mlxtend", specifier = ">=0.23.1" },
     { name = "numpy", specifier = "==2.*" },
     { name = "pandas", specifier = "==2.*" },
     { name = "scikit-learn" },
     { name = "scipy", specifier = ">=1.14.1" },
     { name = "seaborn", specifier = "==0.13.*" },
+    { name = "sklearn-relief", specifier = ">=1.0.0b2" },
     { name = "skrebate", specifier = ">=0.62" },
 ]
 
@@ -1568,6 +1585,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926", size = 34041 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254", size = 11053 },
+]
+
+[[package]]
+name = "sklearn-relief"
+version = "1.0.0b2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/93/ba/c043b16fa8ec373ae92d4448129a4788e0446d893653a88c2c53dc6dcb3c/sklearn_relief-1.0.0b2-py3-none-any.whl", hash = "sha256:ce9f330246fec6bf3eb44165aebc81889dd3b344fab505d5e2c0c08b937a2279", size = 8705 },
 ]
 
 [[package]]
