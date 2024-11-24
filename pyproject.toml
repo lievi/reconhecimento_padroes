@@ -18,6 +18,7 @@ dependencies = [
   "mlxtend>=0.23.1",
   "mixed-naive-bayes>=0.0.3",
   "sklearn-relief>=1.0.0b2",
+  "jupyterlab-vim>=4.1.4",
 ]
 
 [build-system]
